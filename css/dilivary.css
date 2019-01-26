@@ -1,0 +1,411 @@
+/* start body */
+body
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+/* End body */
+
+
+/* Framework */
+ul li a,
+button
+{
+    -webkit-transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    -ms-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+button
+{
+    width: 120px;
+    border: 1px solid transparent;
+    padding: 5px 0 8px 0;
+    font: 15px par;
+    outline: 0;
+    border-radius: 5px;
+}
+/* framwork */
+
+
+/* Start Font face */
+
+@font-face
+{
+    font-family: hed;
+    src: url('../fonts/Neo Sans Arabic Bold.ttf');
+}
+@font-face
+{
+    font-family: par;
+    src: url('../fonts/DIN Next LT W23 Regular.ttf');
+}
+ 
+/* End font face */
+
+
+/* Start communication */
+
+.communication
+{
+    background-color: #222;
+    min-height: 50px;
+    border-bottom: 5px solid #1b993a;
+    margin-bottom:0;
+    position: relative;
+}
+.communication .right{
+    float: right;
+}
+.communication .right img ~ span,
+.communication .right span
+{
+    line-height: 50px;
+}
+.communication .right span
+{
+    color: #fff;
+    font-family:  hed;
+    font-size: 15px;
+    margin-right: 15px;
+
+}
+.communication .left{
+    float: left;
+}
+.communication .left ul
+{
+    line-height: 50px;
+}
+.communication .left ul li
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+.communication .left ul li a
+{
+    color: #FFF;
+    font-size: 15px;
+    font-family: par;
+    text-decoration: none;
+}
+.communication .left ul li a:hover
+{
+    color: #13d05a;
+}
+
+.communication .left img 
+
+{  
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+/* Start communication */
+
+
+
+/*start header*/
+.lists 
+{
+    background-color: #38d07d;
+    padding: 10px 0;
+    position: static;
+    text-align: center;
+}
+
+}   
+.lists ul 
+{
+    margin: 0;
+}   
+.lists ul li 
+{
+    list-style: none;
+    margin-right: 20px;
+    display: inline-block;
+
+}
+.lists ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: hed;
+}
+.lists ul li a:hover
+{
+    color: #b40c07;
+
+}
+/*end header*/
+/*start bod*/
+.content 
+{
+    min-height: 800px;
+    background:url(../images/home/imegs.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;    
+    background-size: cover;
+    position: relative;
+
+}
+.content .grab 
+{
+    background-color: rgba(180, 12, 7, 0.82);
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+.content .grab p
+{
+    font: 15px par;
+    color:#fff;
+    margin: 100px 27px;}
+.area 
+{
+    background-color: #d9edf7;
+    width: 640px;
+    height: 133px;
+    border-radius: 46px;
+    position: relative;
+    top: 10px;
+    right: 271px;
+    margin: 100px 0;
+}
+.content .area p  
+ {  
+    font: 15px par;
+    color: #000017;
+    padding: 56px 4px;
+}
+
+.content .area input[type="text"]
+{
+    width: 400px;
+    background-color: #1b993a;
+    border: 1px solid transparent;
+    outline: 0;
+    font: 14px par;
+    padding: 8px;
+    color: #000;
+    border-radius: 20px;
+    position: absolute;
+    top: 39px;
+    left: 80px;
+    bottom: 34px;
+} 
+button
+{
+    margin: 0 62px;
+    background-color: #000;
+    color: #fff;
+    border: 1px  solid #fff;
+
+}
+button:hover
+{
+    background-color: #9C2200;
+}
+ 
+/*end bod*/
+
+
+     /*start footer*/
+.footer 
+{
+    background-color: #091018;
+}
+.footer .input 
+{
+    background-color: #17232e;
+     width: 285px;
+    height: 135px;
+     margin: 52px auto;
+}
+.footer .input p 
+{
+    height: 30px;
+    font: 800 15px/30px par;
+    color:#17232e;
+    background-color:#f7f7f7;
+    text-align:center;
+}
+.footer .input input[type="text"]
+{
+    width:230px;
+    background-color:#070e15;
+    border:1px solid transparent;
+    outline:0;
+    font:14px par;
+    padding: 5px;
+    color: #f7f7f7;
+    margin-top: 15px;
+}
+.footer .input ::-webkit-input-placeholder 
+{ 
+  color: #17232e;
+}
+.footer .input ::-moz-input-placeholder 
+{ 
+  color: #17232e;
+}
+.footer .input ::-o-input-placeholder 
+{ 
+  color: #17232e;
+}
+.footer .input ::-ms-input-placeholder 
+{ 
+  color: #17232e;
+}
+.footer .input ::input-placeholder 
+{ 
+  color: #17232e;
+}
+.footer .input input[type="submit"]
+{
+    width: 60px;
+    background-color:#070e15;
+    border: 1px solid transparent;
+    color: #F7d7d7;
+    font: 14px par;
+    padding-bottom: 7px;
+    margin: 7px 29px;
+    float: left;
+}
+.footer .links
+{
+    line-height: 100px;
+    text-align: center;
+}
+.footer .links div
+{
+    width: 40px;
+    height: 40px;
+    background-color: #3498db;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    font: 15px/40px hed;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.footer .links div:hover
+{
+    border: 1px solid #3498db;
+    background: none;
+}
+.footer .links div:nth-of-type(2)
+{
+    background-color: #3498db;
+    border: 1px solid transparent;
+}
+
+.footer .links div:nth-of-type(2):hover
+{
+    border: 1px solid #3498db;
+    background: none;
+}
+
+.footer .links div:nth-of-type(3)
+{
+    background-color: #e3220e;
+}
+.footer .links div:nth-of-type(3):hover
+{;
+    border: 1px solid #e3220e;
+    background: none;
+}
+.footer .links div:nth-of-type(1)
+{
+    background-color: #e74c3c;
+}
+.footer .links div:nth-of-type(1):hover
+{
+   border: 1px solid #e74c3c;
+   background: none; 
+}
+/*end footer*/
+@media (max-width: 767px)
+ { 
+
+
+    p {font-size: 18px !important;} 
+    .content{min-height: 990px;} 
+      .area
+       { 
+          width: 400px;
+          position: relative;
+          top: 10px;
+          right: 143px;
+      }
+
+    .content .area input[type="text"]
+       {
+               width: 175px;
+           
+           .content 
+          {
+             min-height: 850px;
+          }
+       }
+       .footer .links{line-height: 0; margin-bottom: 40px; text-align: center}
+   }
+@media (min-width: 768px) and (max-width: 979px) 
+{
+    .area
+    {
+       right: 8px; 
+    }
+    .content
+     {
+        min-height: 850px;
+      }
+}
+@media (max-width: 400px)
+{
+    .content 
+     {
+          min-height: 1014px;
+      }
+
+.area {
+
+    right: -89px;
+} 
+
+}
+
+@media (min-width: 900px) and (max-width: 700px;)
+
+{
+   .area
+   {
+      right: 0px;
+   }
+}
+
+@media (min-width: 400px) and (max-width: 560px)
+
+{
+    .area
+  {  
+     position: relative;
+     top: 10px;
+     right: -14px;
+   }
+}
